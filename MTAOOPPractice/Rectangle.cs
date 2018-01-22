@@ -30,5 +30,10 @@ namespace MTAOOPPractice
                 length = value;
             }
         }
+
+        public double GetArea()
+        {
+            return width * length;
+        }
     }
 }
